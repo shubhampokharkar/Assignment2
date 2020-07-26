@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: box-border;
+}
+
+
+.header{
+    position: relative;
+    margin:0;
+    padding: 5px;
+    overflow: auto;
+    background-color: tomato;
+}
+
+.logo img{
+    width:150px;
+    height:75px;
+    float: left;
+    margin-left:25vw;
+}
+
+.title{
+    position:absolute;
+    bottom:10px;
+    display: inline-block;
+    margin-left:10px;
+    font-size: 4vw;
+}
+
+
+.nav{
+    border: 1px solid transparent;
+    position: sticky;
+    top:0;
+    background-color: black;
+    overflow: auto;
+    font-size: 2vw;
+}
+
+.nav ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    margin-left: 35vw;
+}
+
+.nav ul li{
+    float:left;
+    padding: 4px 0;
+    margin: 5px 10px;
+}
+
+.nav ul li input{
+    padding:5px;
+    text-decoration:none;
+    color:black;
+    border-radius: 8px;
+}
+
+#btn1, #btn2, #btn3{
+    width:150px;
+    background-color:black;
+    color:white;
+    border:1px solid transparent;
+}
+
+#btn1:hover{
+    background-color:white;
+    color: black;
+}
+
+#btn2:hover{
+    background-color:white;
+    color: black;
+}
+
+#btn3:hover{
+    background-color:white;
+    color: black;
+}
+
+#content{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("dance1.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: cover;
+    height: 750px;
+    top:0;
+    color: white;
+}
+#content h1{
+    font-size: 3vw;
+}
+
+#content h2{
+    font-size: 2.5vw;
+}
+
+.display1{
+    font-size: 2vw;
+    color: rgb(190, 0, 0);
+}
+.display2, .display3{
+    font-size: 2vw;
+    color:rgb(204, 0, 255);
+}
+
+.display4{
+    font-size: 2vw;
+    color: rgb(219, 12, 133);
+}
+.display5, .display6, .display7{
+    font-size: 1.5vw;
+    color: rgb(209, 161, 5);
+}
+
+#content2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("dance1.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: cover;
+    height: 750px;
+    top:0;
+    color: white;
+}
+select {
+    width: 360px;
+}
+          
+.rel{
+     position:relative;
+     width:1340px;
+     height:700px;
+     background-color: white;
+}
+          
+#form {
+      margin-left:450px;
+      margin-right: 450px;
+      border:2px solid red;
+      padding:40px 120px;
+      background-color:rgba(0,0,0,0.2);
+      color: white;
+      font-weight: bold;
+}
+      
+#btna{
+    margin-left: 110px;
+    width: 150px;
+}
+
+span{
+      color:red;
+}
+table{
+      margin-top:50px;
+      text-align:center;
+      background-color:#333;
+      color: black;
+}
+          
+#show{
+    border: 2px solid black;
+    width:50%;
+}
+
+#show th, #show td{
+    border: 1px solid white;
+    padding:10px;
+}
+
+#show tr:nth-child(even){
+    background-color: white;
+}
+
+#show tr:nth-child(odd){
+    background-color: white;
+}
+
+#show tr:hover{
+    background-color: silver;
+}
+
+#show th{
+    background-color:black;
+    color:white;
+    text-align: center;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+ 	bottom: 0;
+	width: 100%;
+	height:20px;
+	background-color: black;
+	color: white;
+  	text-align: center;
+	padding:12px;
+}
