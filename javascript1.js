@@ -167,6 +167,7 @@ document.getElementById("btn3").addEventListener("click",function()
                   list7[x]=document.myform.nom.value;
                   list8[x]=document.myform.dtype.value;
                   list9[x]=document.myform.comment.value;
+                  list10[x]= new Date();
                   
                   var cel1=NewRow.insertCell(0);
                   var cel2=NewRow.insertCell(1);
@@ -177,6 +178,7 @@ document.getElementById("btn3").addEventListener("click",function()
                   var cel7=NewRow.insertCell(6);
                   var cel8=NewRow.insertCell(7);
                   var cel9=NewRow.insertCell(8);
+                  var cel10=NewRow.insertCell(9);
                   
                   cel1.innerHTML=list1[x];
                   cel2.innerHTML=list2[x];
@@ -187,6 +189,7 @@ document.getElementById("btn3").addEventListener("click",function()
                   cel7.innerHTML=list7[x];
                   cel8.innerHTML=list8[x];
                   cel9.innerHTML=list9[x];
+                  cel10.innerHTML=list10[x];
                   
                   n++;
                   x++;
