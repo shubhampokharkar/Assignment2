@@ -26,6 +26,7 @@ document.getElementById("btn3").addEventListener("click",function()
           var list7=[];
           var list8=[];
           var list9=[];
+          var list10=[];
           
           var n=1;
           var x=0;
